@@ -1,30 +1,26 @@
-<canvas width="600" height="400"></canvas>
+<meta charset="UTF-8">
 
 <script>
 
-	var tela = document.querySelector('canvas');
-	var pincel = tela.getContext('2d');
+    function pulaLinha() {
 
-	pincel.fillStyle = 'lightgrey'
-	pincel.fillRect(0, 0, 600, 400);
+        document.write("<br>");
+        document.write("<br>");
+    }
 
+var ano = 2016;
 
-	pincel.fillStyle = 'green'
-	pincel.fillRect(0, 0, 200, 400);
+document.write("Flávio tem " + (ano - 1977) + " anos");
 
-	pincel.fillStyle = 'red'
-	pincel.fillRect(400, 0, 200, 400);
+    document.write("<br>");
+    document.write("<br>");
 
-	pincel.fillStyle = 'yellow';
-	pincel.beginPath();
-	pincel.moveTo(300, 200);
-	pincel.lineTo(200, 400);
-    pincel.lineTo(400, 400);
-    pincel.fill();
+document.write("Joaquim tem " + (ano - 1996) + " anos");
 
-    pincel.fillStyle = 'blue';
-    pincel.beginPath();
-    pincel.arc(300, 200, 50, 0, 2 * 3.14);
-    pincel.fill();
+    document.write("<br>");
+    document.write("<br>");
+
+ano = 2017;
+document.write("Barney tem " + (ano - 1976) + " anos");
 
 </script>
